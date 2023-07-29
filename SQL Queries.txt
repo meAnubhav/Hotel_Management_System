@@ -1,0 +1,19 @@
+1.create database hotel;
+2.use hotel;
+3.create table nonac(no int unique,name varchar(30),mob varchar(20),status varchar(20),type varchar(15));
+4.insert into nonac values (1,null,null,'AVAILABLE','NON-AC'),(2,null,null,'AVAILABLE','NON-AC'),(3,null,null,'AVAILABLE','NON-AC'),
+                           (4,null,null,'AVAILABLE','NON-AC'),(5,null,null,'AVAILABLE','NON-AC'),(6,null,null,'AVAILABLE','NON-AC'),
+                           (7,null,null,'AVAILABLE','NON-AC'),(8,null,null,'AVAILABLE','NON-AC'),(9,null,null,'AVAILABLE','NON-AC'),
+                           (10,null,null,'AVAILABLE','NON-AC');
+
+5.create table ac(no int unique,name varchar(30),mob varchar(20),status varchar(20),type varchar(15));
+6.insert into  ac values (1,null,null,'AVAILABLE','AC'),(2,null,null,'AVAILABLE','AC'),(3,null,null,'AVAILABLE','AC'),
+                           (4,null,null,'AVAILABLE','AC'),(5,null,null,'AVAILABLE','AC'),(6,null,null,'AVAILABLE','AC'),
+                           (7,null,null,'AVAILABLE','AC'),(8,null,null,'AVAILABLE','AC'),(9,null,null,'AVAILABLE','AC'),
+                           (10,null,null,'AVAILABLE','AC');
+
+5.create table acdelux(no int unique,name varchar(30),mob varchar(20),status varchar(20),type varchar(15));
+6.insert into acdelux values (1,null,null,'AVAILABLE','AC-DELUX'),(2,null,null,'AVAILABLE','AC-DELUX'),(3,null,null,'AVAILABLE','AC-DELUX'),
+                           (4,null,null,'AVAILABLE','AC-DELUX'),(5,null,null,'AVAILABLE','AC-DELUX'),(6,null,null,'AVAILABLE','AC-DELUX'),
+                           (7,null,null,'AVAILABLE','AC-DELUX'),(8,null,null,'AVAILABLE','AC-DELUX'),(9,null,null,'AVAILABLE','AC-DELUX'),
+                           (10,null,null,'AVAILABLE','AC-DELUX');
